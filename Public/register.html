@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - Crocheting Bro's</title>
+  <link rel="stylesheet" href="styles/register.css"> <!-- Link to external CSS -->
+</head>
+<body>
+
+<header>
+  <div class="logo">Crocheting Bro's</div>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="product.html">Products</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="resources.html">Additional Resources</a></li>
+      <li><a href="cart.html">Cart</a></li>
+    </ul>
+    <a href="login.html" class="login-icon">Login</a>
+  </nav>
+</header>
+
+<div class="form-container">
+  <h1>Register</h1>
+  <form id="register-form">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" id="confirm-password" name="confirm-password" required>
+    
+    <button type="submit">Register</button>
+    <div class="redirect">
+      <p>Already have an account? <a href="login.html">Login Here</a></p>
+    </div>
+  </form>
+</div>
+
+<script src="scripts/register.js"></script> <!-- Link to external JS -->
+</body>
+</html>

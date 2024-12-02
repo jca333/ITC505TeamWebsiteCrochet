@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crocheting Bro's</title>
+  <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Crocheting Bro's</div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resources.html">Additional Resources</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+      <a href="login.html" class="login-icon">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>Welcome to our Crochet Store</h1>
+      <p>Beautiful handmade items just for you.</p>
+    </div>
+  </section>
+
+  <!-- Featured Items Section -->
+  <h2 class="section-title">Featured Items</h2>
+  <section class="products" id="products">
+    <div class="product">
+      <img src="images/FeatureHat.png" alt="Crochet Hat">
+      <h2>Crochet Hat</h2>
+      <p>$10.99</p>
+      <button class="add-to-cart" onclick="addToCart('Crochet Hat', 10.99, 'images/FeatureHat.png')">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="images/FeatureScarf.png" alt="Crochet Scarf">
+      <h2>Crochet Scarf</h2>
+      <p>$39.99</p>
+      <button class="add-to-cart" onclick="addToCart('Crochet Scarf', 39.99, 'images/FeatureScarf.png')">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="images/FeatureBlanket.png" alt="Crochet Blanket">
+      <h2>Crochet Blanket</h2>
+      <p>$49.99</p>
+      <button class="add-to-cart" onclick="addToCart('Crochet Blanket', 49.99, 'images/FeatureBlanket.png')">Add to Cart</button>
+    </div>
+  </section>
+
+  <script src="scripts/home.js"></script>
+</body>
+</html>
+

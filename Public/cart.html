@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart - Crocheting Bro's</title>
+  <link rel="stylesheet" href="styles/cart.css"> <!-- Link to external CSS -->
+</head>
+<body>
+  <header>
+    <div class="logo">Crocheting Bro's</div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resources.html">Additional Resources</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+      <a href="login.html" class="login-icon">Login</a>
+    </nav>
+  </header>
+
+  <section class="cart-container">
+    <h1 class="cart-title">Your Cart</h1>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-total" id="cart-total">Total: $0.00</div>
+    <button class="place-order-button">Place Order</button>
+  </section>
+
+  <div class="credit-card-form">
+    <h2>Payment Information</h2>
+    <label for="card-name">Name on Card</label>
+    <input type="text" id="card-name" placeholder="Enter your name" required>
+
+    <label for="card-number">Card Number</label>
+    <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required>
+
+    <label for="expiry">Expiry Date</label>
+    <input type="text" id="expiry" placeholder="MM/YY" required>
+
+    <label for="cvv">CVV</label>
+    <input type="text" id="cvv" placeholder="123" required>
+
+    <button class="place-order-button">Place Order</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Crocheting Store. All rights reserved.</p>
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">Pinterest</a>
+  </footer>
+
+  <script src="scripts/cart.js"></script> <!-- Link to external JS -->
+</body>
+</html>
